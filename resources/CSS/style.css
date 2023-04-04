@@ -351,11 +351,23 @@ header{
 
 
 /*----------video----------*/
-.neuro-nexus-demo-vid{
+.capstone-demo-vid{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 1%;
+}
+
+@media(min-width: 768px) {
+    .capstone-demo-vid{
+        width: 700px;
+    }
+}
+
+@media(max-width: 767px) {
+    .capstone-demo-vid{
+        width: 400px;
+    }
 }
 
 .search-algo-vid{
